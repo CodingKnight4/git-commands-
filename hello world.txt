@@ -1,0 +1,20 @@
+git config --global user.email "dollarvarunthebest@gmail.com"              #only once in a lifetime
+
+
+git version
+cd C:\Users\saideep uppala\OneDrive\Desktop\git-demo
+dir                            # list of files
+git init                       # only once in a folder
+git status                     # recent changes
+git add loop.txt                      # added   to   stage
+git log                        # list   of    commits
+git rm --cached loop.txt              # removed from stage
+git commit -m "loop added"
+git branch dev                 # new branch created
+git checkout dev               #     branch switched to dev
+git commit -m "dev"            #     branch saved
+
+git merge dev                  # only after swicthing to master branch
+
+
+======================================= the end =============================
